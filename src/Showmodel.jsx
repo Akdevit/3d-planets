@@ -181,9 +181,12 @@ const Showmodel = ({ texture, texturename }) => {
     return (
         <div className='h-[100vh] w-[100%] relative bg-red-200'>
             <Canvas style={{ height: '100%', width: '100%', cursor: 'move' }}>
-                <ambientLight intensity={0.5} />
-                <directionalLight position={[5, 5, 5]} />
-                <pointLight position={[-5, -5, -5]} />
+                <ambientLight intensity={1} />
+                <directionalLight intensity={0.7} position={[5, 5, 5]} />
+                {/* <directionalLight intensity={0.7} position={[-5, -5, -5]} />
+                <directionalLight intensity={0.7} position={[-5, 5, 5]} />
+                <directionalLight intensity={0.7} position={[5, -5, -5]} /> */}
+                <pointLight intensity={0.5} position={[0, 0, 0]} />
                 <Box texture={texture} />
             </Canvas>
 

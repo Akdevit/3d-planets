@@ -32,7 +32,6 @@ const Selectplanet = ({ onPlanetSelect }) => {
         setClose(false);
     };
 
-
     return (
         <>
             {/* Sidebar */}
