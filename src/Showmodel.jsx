@@ -194,7 +194,7 @@ const Showmodel = ({ texture, texturename }) => {
             {
                 showmodal && (
                     <>
-                        <div className='w-full max-w-[400px] h-auto rounded-md shadow-md bg-gray-100 p-4 flex flex-col gap-6 
+                        <div className='w-full xl:max-w-[400px] lg:max-w-[400px] md:max-w-[400px] sm:max-w-[400px] max-w-[95%]  h-auto rounded-md shadow-md bg-gray-100 p-4 flex flex-col gap-6 
                 absolute top-10 left-1/2 transform -translate-x-1/2 
                 sm:right-auto sm:left-10 sm:translate-x-0'>
                             <h1 className='text-center text-3xl font-bold'>{planetdata.name}</h1>
